@@ -96,3 +96,4 @@ Executes all 42 automated unit, rule, edge-case, and validation tests:
 ```bash
 python -m pytest tests/ -v
 ```
+
