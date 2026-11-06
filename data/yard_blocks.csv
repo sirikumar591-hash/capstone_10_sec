@@ -1,0 +1,13 @@
+block_id,block_type,rows,bays_per_row,max_tiers,capacity_teu,plug_points
+DR-01,DRY,2,10,5,100,0
+DR-02,DRY,2,10,5,100,0
+DR-03,DRY,2,10,5,100,0
+DR-04,DRY,2,10,5,100,0
+DR-05,DRY,2,10,5,100,0
+DR-06,DRY,2,10,5,100,0
+RF-01,REEFER,2,8,3,48,48
+RF-02,REEFER,2,8,3,48,48
+HZ-01,HAZ,2,5,2,20,0
+HZ-02,HAZ,2,5,2,20,0
+EM-01,EMPTY,2,10,5,100,0
+EM-02,EMPTY,2,10,5,100,0

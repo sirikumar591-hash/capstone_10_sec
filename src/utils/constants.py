@@ -1,0 +1,63 @@
+"""
+Constants, Enums, and Charge Codes for T090-PS-122 Logistics Engine.
+"""
+from enum import Enum
+
+
+class ContainerType(str, Enum):
+    DRY = "DRY"
+    REEFER = "REEFER"
+    HAZ = "HAZ"
+    EMPTY = "EMPTY"
+
+
+class Direction(str, Enum):
+    IMPORT = "IMPORT"
+    EXPORT = "EXPORT"
+
+
+class ContainerState(str, Enum):
+    DISCHARGED = "DISCHARGED"
+    YARD = "YARD"
+    GATE_OUT = "GATE_OUT"
+    EMPTY_RETURNED = "EMPTY_RETURNED"
+    LOADED = "LOADED"
+    RESTOWED = "RESTOWED"
+    SHUT_OUT = "SHUT_OUT"
+    AUCTION_LISTED = "AUCTION_LISTED"
+
+
+class RestowReason(str, Enum):
+    CONSIGNEE_REQUEST = "CONSIGNEE_REQUEST"
+    TERMINAL_ACCESS = "TERMINAL_ACCESS"
+
+
+class ShutOutReason(str, Enum):
+    LINE_CUTOFF = "LINE_CUTOFF"
+    YARD_CONGESTION = "YARD_CONGESTION"
+
+
+class ChargeCode(str, Enum):
+    DEMURRAGE_DRY = "DEMURRAGE_DRY"
+    SIZE_MULT_40 = "SIZE_MULT_40"
+    TYPE_MULT_REEFER = "TYPE_MULT_REEFER"
+    TYPE_MULT_HAZ = "TYPE_MULT_HAZ"
+    REEFER_PLUG = "REEFER_PLUG"
+    DETENTION = "DETENTION"
+    LIFT = "LIFT"
+    OVERFLOW_STORAGE_MULT = "OVERFLOW_STORAGE_MULT"
+    SHUT_OUT = "SHUT_OUT"
+    AUCTION_PROCESSING = "AUCTION_PROCESSING"
+    DELISTING = "DELISTING"
+    GST_PCT = "GST_PCT"
+    INTEREST_PCT_PER_MONTH = "INTEREST_PCT_PER_MONTH"
+    MANAGER_APPROVE_ABOVE = "MANAGER_APPROVE_ABOVE"
+    TOTAL = "TOTAL"
+    GST = "GST"
+    INTEREST = "INTEREST"
+
+
+class Flag(str, Enum):
+    CLAIM_RISK = "CLAIM_RISK"
+    MANAGER_APPROVE_REQUIRED = "MANAGER_APPROVE_REQUIRED"
+    OVERFLOW = "OVERFLOW"

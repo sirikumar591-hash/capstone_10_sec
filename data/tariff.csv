@@ -1,0 +1,19 @@
+charge_code,size_ft,slab_from_day,slab_to_day,rate,unit,notes
+DEMURRAGE_DRY,20,1,5,1200.00,per day,
+DEMURRAGE_DRY,20,6,10,2000.00,per day,
+DEMURRAGE_DRY,20,11,,3500.00,per day,slab 3
+SIZE_MULT_40,40,,,1.60,multiplier,40-ft = 1.6 x 20-ft
+TYPE_MULT_REEFER,,,,2.00,multiplier,
+TYPE_MULT_HAZ,,,,1.50,multiplier,
+REEFER_PLUG,,1,,2500.00,per day,no free days
+DETENTION,20,8,14,1500.00,per day,days 1-7 free; doubled from day 15
+DETENTION,40,8,14,2800.00,per day,days 1-7 free; doubled from day 15
+LIFT,20,,,3000.00,per lift,
+LIFT,40,,,4500.00,per lift,
+OVERFLOW_STORAGE_MULT,,,,1.50,multiplier,on storage/demurrage while in OVERFLOW
+SHUT_OUT,,,,5000.00,per container,line cut-off miss only
+AUCTION_PROCESSING,,,,10000.00,per container,from day 45
+DELISTING,,,,2000.00,per container,
+GST_PCT,,,,18.00,pct,
+INTEREST_PCT_PER_MONTH,,,,1.50,pct,after 15 days unpaid
+MANAGER_APPROVE_ABOVE,,,,200000.00,per container demurrage,

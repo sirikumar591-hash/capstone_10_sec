@@ -1,0 +1,2 @@
+# Requirements for T090-PS-122 Shipping Container Yard Allocation and Demurrage/Detention Billing Engine
+pytest>=7.0.0
